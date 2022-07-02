@@ -1,0 +1,7 @@
+The idea of the used algorithm: there is a theorem every number can be
+represented by the composition of prime numbers. So, I check every number if it
+divides by any prime number without a remainder: if it turns out to be the
+case, it means the number is not a prime, otherwise it's a prime, so I add
+it to the list of primes. 
+
+At the start I create a list of the first two prime numbers.
